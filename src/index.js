@@ -2,11 +2,25 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import NewComponent from './NewComponent'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <br></br>
+    <App />
+    <br></br>
+    <App />
+    <br></br>
+    <App />
+    <br></br>
+    <App />
+    <br></br>
+    <App />
+    <br></br>
+    <App />
+    <NewComponent/>
   </React.StrictMode>,
   document.getElementById('root')
 );
